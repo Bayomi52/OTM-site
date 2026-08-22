@@ -227,7 +227,7 @@ body {
 
 .history-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.2fr 1fr; /* Gives the text slightly more space than the image */
     gap: 4rem;
     align-items: center;
 }
