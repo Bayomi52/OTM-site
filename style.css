@@ -678,3 +678,79 @@ details[open] .accordion-header::after {
         height: 60px; /* Makes the logo slightly bigger when stacked */
     }
 }
+/* --- Information Hub Section --- */
+.info-hub-section {
+    background-color: var(--bg-light);
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.info-column {
+    background-color: var(--text-light);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: var(--transition);
+}
+
+.info-column:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.info-header {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.info-header h3 {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.info-content {
+    padding: 1.5rem;
+}
+
+.info-item {
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+/* Removes the line under the very last item in the list */
+.info-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.info-date {
+    display: inline-block;
+    background-color: rgba(252, 163, 17, 0.15); /* Faded secondary color */
+    color: var(--secondary-color);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+}
+
+.info-item h4 {
+    color: var(--text-dark);
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+}
+
+.info-item p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
