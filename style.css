@@ -176,7 +176,7 @@ body {
 }
 
 /* --- Responsive Adjustments --- */
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     .nav-list {
         display: none; /* We will add JS later to toggle this */
     }
@@ -277,7 +277,7 @@ body {
 }
 
 /* --- Responsive Adjustments --- */
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     .history-grid {
         grid-template-columns: 1fr;
         gap: 3rem;
