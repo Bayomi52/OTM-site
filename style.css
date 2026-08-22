@@ -229,7 +229,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
-    align-items: center;
+    align-items: start; /* This forces the image to align with the top text */
 }
 
 .history-text h3 {
